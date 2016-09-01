@@ -1,0 +1,338 @@
+@media (max-width:1120px) {
+
+.wrapper { display:block; width:auto; padding:0 20px;} 
+
+.searchlist li { width:31.94%;margin:0 20px 30px 0; min-height:260px;}
+
+.searchlist li img { width:100%;}
+
+.searchlist li .bxlcont {width: 80%; word-wrap: break-word}
+
+ul.bkhead li:nth-child(2n+2) { width:16.40%;}
+
+ul.bkhead li:nth-child(2n+3) { width:25.8%;}
+
+ul.bkhead li:nth-child(2n+4) {  width:16.9%; }
+
+
+
+ul.bklist li ul li:nth-child(2n+1) { width:7.9%;}
+
+ul.bklist li ul li:nth-child(2n+2) { width:16.50%;}
+
+ul.bklist li ul li:nth-child(2n+3) { width:25.9%;}
+
+ul.bklist li ul li:nth-child(2n+4) { width:17%;}
+
+ul.bklist li ul li:nth-child(2n+5) { width:14%;}
+
+.profright { width:71%;}
+
+ul.profform li { width:auto;}
+
+.leftbar { width:23%;}
+
+.rightbar { width:85%;}
+
+.rgcalbox { width:100%;}
+
+.rightbar { width:75%; padding-left: 17px;}
+
+.listPagi { width:74%; text-align:center;}
+
+ul.calpagi.calpagi2 { margin:0; float:none; display:inline-block; text-align:center;}
+
+.ui-widget-content { margin:0 auto; z-index:10;}
+
+.hasDatepicker { width:100%; float:left; margin:0 0 20px 0;} 
+
+.leftbar_new { width:100% !important; float:left;}
+
+.rightbar_new { width:100% !important; float:left;padding:0px !important; border:none !important; margin:15px 0 0 0; }
+
+.rgcalbox { width:100% !important; margin:0px !important;}          
+
+
+
+.calendar_part { width:100%;}    
+
+.formbtn .canbtn { padding:7px 18px 8px!important;}
+
+.tptxt { width:315px; padding-right:0;}
+
+.tptxt.tptxt2 { padding-left: 14px;}
+
+}       
+
+@media (max-width:1000px) {
+
+.searchlist li {margin-right: 15px;}
+
+.searchlist li .bxlcont {width:72.4%;}
+
+.tptxt {  padding-right:10px;}
+
+.tptxt.tptxt2 { padding-left:15px;}
+
+.tpbox { padding-left:10px;}
+
+ul.bklist li ul li:nth-child(2n+5) { width:13%;}
+
+ul.bklist li ul li a.btn { width:100%; text-align:center; margin:3px 0;}
+
+.profright { width:54%; margin-left:10px;}
+
+ul.profform li { width:auto;  padding: 19px 0px;}
+
+.profright form { width:100%;}
+
+.tptxt h2 { font-size:18px;}
+
+.tptxt.tptxt2 .time { font-size:14px;}
+
+.tpright .btn { padding: 9px 12px;}
+
+.listPagi { width:72%;}
+
+#calendar { width:100% !important; float:left; margin:0px !important;}
+
+.calendar_part { width:100%;}
+
+.date_mainbox .days_box {min-height:52px;}
+
+.date_mainbox .days_box span {min-height:52px; line-height:30px;}
+
+.top_head { float:none; display:inline-block; text-align:center;}
+
+.tpleft { width:100%; float:none; display:inline-block; text-align:center; position:relative;}
+
+.tpright { float:none; text-align:center; display:inline-block;}
+
+.tptxt { width:auto;}
+
+.commom-head-div { width:100%; margin:0px;}
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+.searchlist { float:none; display:inline-block; text-align:center;}
+
+.searchlist li { width:45%; text-align:left; float:none; display:inline-block; margin:0 10px 30px;}
+
+.searchlist li:nth-child(3n) { margin:0 10px 30px;}
+
+.searchlist li .bxlcont {width:72%; padding:0 5px 10px;} 
+
+.searchlist li h2 {font-size:18px;}
+
+.searchlist li .dist { font-size:18px; }
+
+.footer .fleft { width:100%; float:none; display:inline-block; text-align:center;}
+
+.footer .fright { float:none; display:inline-block; text-align:center; width:100%; margin-top:10px;}
+
+.header .logo {margin-right:12px;padding-right:10px;}
+
+.header .search.active input { padding: 3px 9px; margin-right:5px;}
+
+ul.booking li { padding: 10px 27px;}
+
+.book_cont { display:none;}
+
+.dtlable { display:block; float:left; width:33%; color:#000;}
+
+ul.bklist li ul { border:0;}
+
+ul.bklist li ul{ border:1px solid #ccc; padding:10px;}
+
+ul.bklist li ul:first-child {border:1px solid #ccc;}
+
+ul.bklist li ul li.elips, ul.bklist li ul li.close, ul.bklist li ul li.rg_icon { background-position:left center;}
+
+ul.bklist li ul li:nth-child(2n+1), ul.bklist li ul li:nth-child(2n+2), ul.bklist li ul li:nth-child(2n+3), ul.bklist li ul li:nth-child(2n+4), ul.bklist li ul li:nth-child(2n+5){ width:100%;}
+
+ul.bklist li { display:inline-block; width:49%; margin-right:5px; vertical-align:top; margin-top:10px; margin-bottom:10px;}
+
+ul.bklist li ul li a.btn { width: 47.93%;  margin: 3px 2px; float:none; display:inline-block; text-align:center;}
+
+ul.bklist li:nth-child(2n+2) { margin-right:0;}
+
+ul.bklist li ul li{margin-right:0px;  padding: 5px 0; margin-top:0; margin-bottom:0;}
+
+.booklist { margin-top:30px;}
+
+.profleft { float:none; display:inline-block;word-wrap: break-word;}
+
+.profmail { text-align:center; font-size:14px;}
+
+ul.profform li { padding:15px 0; width:100%;}
+
+ul.profform li label,ul.profform li input[type="text"], ul.profform li input[type="email"] { width:100%; margin-bottom:5px;}
+
+.formbtn .btn { margin: 0 3px;  padding: 9px 16px;}
+
+.leftbar { width:100%;}
+
+.rightbar { width:100%; border:0; padding:0; margin-top:20px;}
+
+.fc-header-title h2 { font-size:17px;}
+
+.fc-header-title { padding:0 0 0 10px;}
+
+.container { padding-bottom:120px;}
+
+.advance_box { float:right;}
+
+
+.advance_search {width:290px; padding:10px 7px;}
+
+
+}
+
+@media (max-width:680px) {
+
+.profile_cont { display: inline-block; text-align:center; }
+
+.profleft {margin: 0 auto 40px; padding-bottom: 38px;}
+
+.profileleft_div { width:100%; display:inline-block; text-align:center; background:#f2f2f2;}   
+
+.profright { margin-left:0; width:100%;}
+
+ul.profform li label { text-align:left;}
+
+ul.profform li input[type="text"], ul.profform li input[type="email"], ul.profform li input[type="password"], ul.profform li select, ul.profform li textarea, ul.profform li input[type="file"] { width:100%;}
+
+.uploaded_img { margin-left:0;}
+
+	
+
+}
+
+
+
+
+
+@media (max-width:480px) {
+
+.searchlist li { width:100%; margin:0 0 30px; min-height:inherit;}
+
+.searchlist li:nth-child(3n) { margin:0 0 30px;}
+
+.header .logo { width:100%; float:none; display:inline-block; text-align:center; margin-bottom:15px; padding-right:0; margin-right:0; border-right:0;}
+
+.header .search { width:auto;}
+
+.header .search.active input { width:100%;}
+
+.header .search input[type="submit"] { float:right;}
+
+ul.booking li { padding: 10px 5px;font-size:13px;}
+
+ul.booking li h1 { font-size:30px; }
+
+ul.bklist li { width:100%;}
+
+.fancybox-opened .fancybox-skin, .fancybox-wrap { max-width:270px !important;}
+
+.fancybox-inner { width:229px !important;}
+
+.fancybox-skin { padding:15px !important;}
+
+.signinbox{ max-width:100%;}
+
+.prof_img { width:auto;}
+
+.profmail { font-size:16px;}
+
+.profright { width:100%; padding:10px 0; margin:0;}
+
+.proftxt { font-size:14px;}
+
+.tptxt { width:100%; display:inline-block; text-align:center; margin-bottom:10px; border:0;}
+
+.tpbox {width:100%; display:inline-block; text-align:center; margin-bottom:10px; }
+
+.prev_aerow { height: 20px;left: 36px;position: absolute; top: 26px;}
+
+.listPagi { width:100%; float:none; display:inline-block; }
+
+.daybox { float:none;margin:0 auto 10px; display:inline-block;}
+
+.daybox2 { float:none;margin:0 auto 10px; display:inline-block;}
+
+.commom-head-div { width:100%; margin:0px; text-align:center;}
+
+#calendar {overflow-x: scroll;}
+
+.calendar_part { width:456px;}
+
+.fc-header td { width:100%; float:left; text-align:center;}
+
+ul.profform li input[type="text"], ul.profform li input[type="email"], ul.profform li input[type="password"], ul.profform li select, ul.profform li textarea, ul.profform li input[type="file"] { width:100%;}
+
+.fleft br { display:block;} 
+
+
+
+
+
+.fix1 .tptxt2 { position:fixed; top:0; left:0; background:#f2f2f2; text-align:left; padding:8px 0 8px 8px; z-index:90;}
+
+.fix1 .tpright { position:fixed; top:10px; right:10px; background:#f2f2f2; margin:0; z-index:99;}
+
+.fix1 .tpright a { margin:0;}
+
+
+
+.calendar_part {width: auto; margin-top:0;}
+
+
+
+.days_box b {transform: translateY(10px) rotate(270deg); font-weight:normal; display:block;}
+
+
+
+.weekdays.show { display:block;}
+
+.weekdays.hide { display:none;}
+
+.tptxt.tptxt2 { width:100%;}
+
+}
+
+
+
+@media (max-width:425px) {
+
+.fix1 .tptxt2 { min-height:105px; text-align:left;}
+
+.fix1 .tpright { top:55px; right:inherit; left:10px;}
+
+
+
+.footer .fleft { line-height:14px;}
+
+.date_mainbox .days_box span  { padding: 11px 1px;}
+
+.date_mainbox .days_box { font-size:9px;}
+
+
+
+}
+
+
+
+@media (max-width:320px) {
+
+.test_info .test_text {width: 100%;}
+
+}
+
+
+
