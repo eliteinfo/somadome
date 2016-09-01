@@ -1,0 +1,6 @@
+[16-Oct-2014 10:59:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 144
+[16-Oct-2014 11:00:14 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 142
+[16-Oct-2014 11:07:31 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 13
+[16-Oct-2014 11:07:49 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 13
+[16-Oct-2014 11:07:52 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 13
+[16-Oct-2014 11:07:57 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/scs/admin/includes/assigncbl_add.inc.php on line 27
