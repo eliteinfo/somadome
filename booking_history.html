@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Somadome</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Cabin:400,500,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        $(".fancybox").fancybox();
+});      
+</script>
+</head>
+
+<body>
+<div class="header">
+  <div class="wrapper">
+    <div class="logo"><img src="images/logo.png" alt="" /></div>
+    <div class="search">
+      <input type="text" placeholder="Search" />
+    </div>
+    <div class="rightlnk"><a class="fancybox" href="#inline1">Login</a></div>
+    <div id="inline1" style="display:none;">
+      <div class="signinbox">
+        <form>
+          <h1>Signin with your somadome account</h1>
+          <input type="text" name="email" value="" placeholder="E-mail">
+          </p>
+          <input type="password" name="password" value="" placeholder="Password">
+          <input type="checkbox" name="checkboxG1" id="checkboxG1" class="css-checkbox" />
+          <label for="checkboxG1" class="css-label">Remember me</label>
+          <a href="#" class="frgps">Forgot your password?</a> <a href="#" class="btn">SIGN IN</a>
+          <div class="acc_box">Don't have a somadome account?<br />
+            <a href="#">Click here</a> to create one</div>
+        </form>
+      </div>
+      
+      <!-------create acc popup---------> 
+      <!-- <div class="signbox">
+<form>
+<h1>Create a somadome account</h1>
+<input type="text" name="first name" value="" placeholder="First Name">
+<input type="text" name="last name" value="" placeholder="Last Name">
+<input type="text" name="sate" value="" placeholder="Sate">
+<input type="text" name="Zip Code" value="" placeholder="Zip Code">
+<input type="text" name="email" value="" placeholder="E-mail">
+<input type="password" name="password" value="" placeholder="Password">
+<a href="#" class="btn btn2">SIGN IN</a>
+</form>
+</div>--> 
+      <!-------create acc popup end---------> 
+    </div>
+  </div>
+  <!-- wrapper ends --> 
+</div>
+<!--- header ends -->
+
+<!---top head start----->
+<div class="top_head">
+	<div class="wrapper">
+    <div class="tpleft">
+<ul class="booking">
+<li class="gry"><h1>08</h1>Bookings</li>
+<li class="pur"><h1>02</h1>Upcoming</li> 
+<li class="green"><h1>05</h1>Completed</li> 
+<li class="red"><h1>01</h1>Canceled</li>    
+</ul>
+</div>
+<div class="tpright"> <a href="#" class="btn newbk">New booking</a></div>
+</div>
+</div>
+<!---top head end----->
+
+<div class="book_cont">
+	<div class="wrapper">
+    <ul class="bkhead">
+        <li>&nbsp;</li> 
+    	<li>Date</li>
+        <li>Location</li>
+        <li>Time</li>
+        <li>Status</li>
+    </ul>
+    </div>
+</div>
+<div class="booklist">
+	<div class="wrapper">
+    	<ul class="bklist">
+        <li>
+        <ul>
+<li class="elips"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="purtxt"><span class="dtlable">Status:</span>Upcoming</li>
+        <li><a href="#" class="btn cancle">cancel</a><a href="#" class="btn edit">edit</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="elips"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="purtxt"><span class="dtlable">Status</span>Upcoming</li>
+        <li><a href="#" class="btn cancle">cancel</a><a href="#" class="btn edit">edit</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="close"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="redtxt"><span class="dtlable">Status</span>Canceled</li>
+        <li><a href="#" class="btn purbtn">re-book</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="rg_icon"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="grntxt"><span class="dtlable">Status</span>Completed</li>
+        <li><a href="#" class="btn purbtn">re-book</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="rg_icon"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="grntxt"><span class="dtlable">Status</span>Completed</li>
+        <li><a href="#" class="btn purbtn">re-book</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="rg_icon"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="grntxt"><span class="dtlable">Status</span>Completed</li>
+        <li><a href="#" class="btn purbtn">re-book</a></li>
+</ul>
+        </li>
+        <li>
+        <ul>
+<li class="rg_icon"> </li>
+        <li><span class="dtlable">Date:</span>March 25, 2016</li>
+        <li><span class="dtlable">Location:</span>Cornelia Spa at The Surrey</li>
+        <li><span class="dtlable">Time:</span>06:00 to 06:30</li>
+        <li class="grntxt"><span class="dtlable">Status</span>Completed</li>
+        <li><a href="#" class="btn purbtn">re-book</a></li>
+</ul>
+        </li>
+        
+        </ul>
+    </div>
+</div>
+
+
+<div class="footer">
+	<div class="wrapper">
+    	<div class="fleft">&copy; Somadome 2015 ・ Santa Monica, CA ・ 415-640-5806 ・ <a href="mailto:info@somadome.com">info@somadome.com</a></div>
+        <div class="fright">
+        	<a href="/"><i class="fa fa-twitter"></i></a>            
+        	<a href="/"><i class="fa fa-facebook"></i></a>
+        	<a href="/"><i class="fa fa-instagram"></i></a>            
+        </div>
+    </div>
+</div> <!-- footer ends -->
+
+<script type="text/javascript" src="js/common.js"></script>
+
+</body>
+</html>

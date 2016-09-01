@@ -1,0 +1,34 @@
+[12-Apr-2016 14:29:11 UTC] PHP Warning:  include(../lib/module.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/demoserv/public_html/Somadome_New/ajax.php on line 3
+[12-Apr-2016 14:29:11 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../lib/module.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/demoserv/public_html/Somadome_New/ajax.php on line 3
+[12-Apr-2016 14:29:11 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/Somadome_New/ajax.php on line 14
+[13-Apr-2016 07:44:34 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/Somadome_New/profile.php on line 104
+[13-Apr-2016 07:44:38 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/Somadome_New/profile.php on line 104
+[29-Apr-2016 09:42:47 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/index.php on line 33
+[29-Apr-2016 09:42:51 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/index.php on line 33
+[29-Apr-2016 10:17:49 UTC] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting '&' or T_VARIABLE in /home/demoserv/public_html/Somadome_New/index.php on line 2
+[29-Apr-2016 10:17:53 UTC] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting '&' or T_VARIABLE in /home/demoserv/public_html/Somadome_New/index.php on line 2
+[29-Apr-2016 10:18:25 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting '&' or T_VARIABLE in /home/demoserv/public_html/Somadome_New/index.php on line 2
+[29-Apr-2016 10:18:43 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting '&' or T_VARIABLE in /home/demoserv/public_html/Somadome_New/index.php on line 2
+[02-May-2016 07:24:41 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php on line 292
+[02-May-2016 07:24:44 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php on line 292
+[02-May-2016 10:02:46 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php:2) in /home/demoserv/public_html/Somadome_New/lib/module.php on line 2
+[02-May-2016 14:29:18 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/index.php on line 78
+[02-May-2016 14:29:20 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/Somadome_New/index.php on line 78
+[04-May-2016 11:36:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demoserv/public_html/Somadome_New/Choose_Session_Time1.php on line 353
+[05-May-2016 04:56:37 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php on line 187
+[05-May-2016 05:22:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php on line 193
+[05-May-2016 05:22:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demoserv/public_html/Somadome_New/Choose_Session_Time.php on line 193
+[06-May-2016 09:07:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/staausyio/public_html/Somadome_New/index.php on line 92
+[06-May-2016 09:07:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/staausyio/public_html/Somadome_New/index.php on line 92
+[06-May-2016 11:23:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/staausyio/public_html/Somadome_New/index.php on line 49
+[06-May-2016 11:24:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/staausyio/public_html/Somadome_New/index.php on line 49
+[06-May-2016 11:24:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/staausyio/public_html/Somadome_New/index.php on line 49
+[06-May-2016 11:31:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/staausyio/public_html/Somadome_New/index.php on line 48
+[09-May-2016 11:27:12 Asia/Calcutta] PHP Notice:  Undefined index: Uid in /home/staausyio/public_html/Somadome_New/includes/header.inc.php on line 199
+[09-May-2016 11:27:12 Asia/Calcutta] PHP Notice:  Undefined index: Uid in /home/staausyio/public_html/Somadome_New/includes/header.inc.php on line 210
+[09-May-2016 11:27:12 Asia/Calcutta] PHP Notice:  Undefined index: btnSearch in /home/staausyio/public_html/Somadome_New/index.php on line 2
+[09-May-2016 11:27:12 Asia/Calcutta] PHP Notice:  Undefined index: Uid in /home/staausyio/public_html/Somadome_New/index.php on line 5
+[18-May-2016 11:30:01 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/aurosysadmin/public_html/Somadome_New/index.php on line 29
+[22-Jun-2016 13:37:29 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/aurosysadmin/public_html/Somadome_New/Choose_Session_Time.php on line 6
+[28-Jun-2016 07:31:00 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/aurosysadmin/public_html/Somadome_New/index.php on line 53
+[28-Jun-2016 07:34:59 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/aurosysadmin/public_html/Somadome_New/index.php on line 53
